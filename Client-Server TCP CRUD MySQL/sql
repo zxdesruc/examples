@@ -1,0 +1,12 @@
+CREATE DATABASE university;
+USE university;
+CREATE TABLE animals (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(30),
+    color VARCHAR(30),
+    group_number INT,
+    enrollment_year INT
+);
+insert into university.animals values(1,'Алеся','Полякова',973601,2022);
+insert into university.animals values(2,'Александр','Пушкин',973602,2021);
+insert into university.animals values(3,'Ирина','Котова',973603,2020);
